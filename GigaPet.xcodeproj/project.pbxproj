@@ -12,6 +12,13 @@
 		8B5509DF1BDB532D007648DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5509DD1BDB532D007648DC /* Main.storyboard */; };
 		8B5509E11BDB532D007648DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5509E01BDB532D007648DC /* Assets.xcassets */; };
 		8B5509E41BDB532D007648DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5509E21BDB532D007648DC /* LaunchScreen.storyboard */; };
+		8B5509EC1BDB605C007648DC /* monsterAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5509EB1BDB605C007648DC /* monsterAnimation.swift */; settings = {ASSET_TAGS = (); }; };
+		8B5509F01BDB62EE007648DC /* dragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5509EF1BDB62EE007648DC /* dragImage.swift */; settings = {ASSET_TAGS = (); }; };
+		8B5509F61BDB809E007648DC /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B5509F11BDB809E007648DC /* cave-music.mp3 */; settings = {ASSET_TAGS = (); }; };
+		8B5509F71BDB809E007648DC /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B5509F21BDB809E007648DC /* bite.wav */; settings = {ASSET_TAGS = (); }; };
+		8B5509F81BDB809E007648DC /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B5509F31BDB809E007648DC /* death.wav */; settings = {ASSET_TAGS = (); }; };
+		8B5509F91BDB809E007648DC /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B5509F41BDB809E007648DC /* heart.wav */; settings = {ASSET_TAGS = (); }; };
+		8B5509FA1BDB809E007648DC /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B5509F51BDB809E007648DC /* skull.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		8B5509E01BDB532D007648DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5509E31BDB532D007648DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5509E51BDB532D007648DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5509EB1BDB605C007648DC /* monsterAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = monsterAnimation.swift; sourceTree = "<group>"; };
+		8B5509EF1BDB62EE007648DC /* dragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragImage.swift; sourceTree = "<group>"; };
+		8B5509F11BDB809E007648DC /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		8B5509F21BDB809E007648DC /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		8B5509F31BDB809E007648DC /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		8B5509F41BDB809E007648DC /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		8B5509F51BDB809E007648DC /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +68,19 @@
 		8B5509D81BDB532D007648DC /* GigaPet */ = {
 			isa = PBXGroup;
 			children = (
+				8B5509F11BDB809E007648DC /* cave-music.mp3 */,
+				8B5509F21BDB809E007648DC /* bite.wav */,
+				8B5509F31BDB809E007648DC /* death.wav */,
+				8B5509F41BDB809E007648DC /* heart.wav */,
+				8B5509F51BDB809E007648DC /* skull.wav */,
 				8B5509D91BDB532D007648DC /* AppDelegate.swift */,
 				8B5509DB1BDB532D007648DC /* ViewController.swift */,
 				8B5509DD1BDB532D007648DC /* Main.storyboard */,
 				8B5509E01BDB532D007648DC /* Assets.xcassets */,
 				8B5509E21BDB532D007648DC /* LaunchScreen.storyboard */,
 				8B5509E51BDB532D007648DC /* Info.plist */,
+				8B5509EB1BDB605C007648DC /* monsterAnimation.swift */,
+				8B5509EF1BDB62EE007648DC /* dragImage.swift */,
 			);
 			path = GigaPet;
 			sourceTree = "<group>";
@@ -121,7 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5509FA1BDB809E007648DC /* skull.wav in Resources */,
+				8B5509F71BDB809E007648DC /* bite.wav in Resources */,
+				8B5509F81BDB809E007648DC /* death.wav in Resources */,
+				8B5509F91BDB809E007648DC /* heart.wav in Resources */,
 				8B5509E41BDB532D007648DC /* LaunchScreen.storyboard in Resources */,
+				8B5509F61BDB809E007648DC /* cave-music.mp3 in Resources */,
 				8B5509E11BDB532D007648DC /* Assets.xcassets in Resources */,
 				8B5509DF1BDB532D007648DC /* Main.storyboard in Resources */,
 			);
@@ -135,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5509DC1BDB532D007648DC /* ViewController.swift in Sources */,
+				8B5509EC1BDB605C007648DC /* monsterAnimation.swift in Sources */,
 				8B5509DA1BDB532D007648DC /* AppDelegate.swift in Sources */,
+				8B5509F01BDB62EE007648DC /* dragImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
